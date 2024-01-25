@@ -95,5 +95,51 @@ SQL commands are categorized into different types:
 5. make a column primary key / remove primary key
 
 
+CREATE DATABASE ASSIGNMENT;
+
+USE ASSIGNMENT;
+
+CREATE TABLE FIRST (
+	id INT,
+    name VARCHAR (50)
+);
+
+INSERT INTO FIRST (id , name)
+VALUES 
+(101, "japan");
+
+INSERT INTO FIRST VALUES (102, "china");
+
+SHOW DATABASES;
+
+DESC FIRST;
+
+ALTER TABLE FIRST
+
+ADD CAPITAL VARCHAR(50);
+
+ALTER TABLE FIRST
+
+DROP COLUMN country;
+
+ALTER TABLE FIRST
+DROP CONSTRAINT second;
+
+
+ALTER TABLE FIRST
+RENAME COLUMN name TO country;
+
+ALTER TABLE FIRST
+MODIFY country CHAR(10);
+
+ALTER TABLE FIRST 
+DROP PRIMARY KEY;
+
+
+![1st](https://github.com/codeXsit/SQL-Assignment/assets/142652308/0d2c24a6-0ae1-4ce6-a1e1-7ec359c76351)
+
+![2](https://github.com/codeXsit/SQL-Assignment/assets/142652308/6f44b923-ce09-4c40-9f96-9064b44dc6f7)
+
+
 ## Note⚠️: Your submission would be considered once you complete the assignment in Readme.md and commit it.
 This readme.md file provides a clear guide for installation, learning resources, SQL overview, and instructions for the assignment questions
