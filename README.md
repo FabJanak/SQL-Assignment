@@ -94,6 +94,51 @@ SQL commands are categorized into different types:
 4. change the data type of a column
 5. make a column primary key / remove primary key
 
+CREATE DATABASE ASSIGNMENT;
+
+USE ASSIGNMENT;
+
+CREATE TABLE FIRST (
+	id INT,
+    name VARCHAR (50)
+);
+
+INSERT INTO FIRST (id , name)
+VALUES 
+(101, "japan");
+
+INSERT INTO FIRST VALUES (102, "china");
+
+SHOW DATABASES;
+
+DESC FIRST;
+
+ALTER TABLE FIRST
+
+ADD CAPITAL VARCHAR(50);
+
+ALTER TABLE FIRST
+
+DROP COLUMN country;
+
+ALTER TABLE FIRST
+DROP CONSTRAINT second;
+
+
+ALTER TABLE FIRST
+RENAME COLUMN name TO country;
+
+ALTER TABLE FIRST
+MODIFY country CHAR(10);
+
+ALTER TABLE FIRST 
+DROP PRIMARY KEY;
+
+![1st](https://github.com/FabJanak/SQL-Assignment/assets/142652308/8b92fbcd-50b8-4372-82fa-78e4f536a92e)
+![2](https://github.com/FabJanak/SQL-Assignment/assets/142652308/b1e62757-90b6-449e-879e-b17dca9da62b)
+
+
+
 
 ## Note⚠️: Your submission would be considered once you complete the assignment in Readme.md and commit it.
 This readme.md file provides a clear guide for installation, learning resources, SQL overview, and instructions for the assignment questions
